@@ -12,5 +12,7 @@ html, body {
 
 header {
     background-image: url(../midias/header_background_desktop.png);
+    background-size: cover;
     height: 459px;
+    text-align: center;
 }
