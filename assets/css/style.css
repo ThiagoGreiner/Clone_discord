@@ -14,5 +14,11 @@ header {
     background-image: url(../midias/header_background_desktop.png);
     background-size: cover;
     height: 459px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header div {
     text-align: center;
 }
