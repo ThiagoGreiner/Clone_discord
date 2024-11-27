@@ -10,6 +10,10 @@ html, body {
     width: 100vw;
 }
 
+h2, p {
+    font-family: 'Open Sans';
+}
+
 header {
     background-image: url(../midias/header_background_desktop.png);
     background-size: cover;
@@ -20,7 +24,7 @@ header {
 }
 
 .header {
-    width: 43%;
+    width: 50%;
     text-align: center;
 }
 
