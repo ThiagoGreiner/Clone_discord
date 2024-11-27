@@ -19,6 +19,7 @@ header {
     align-items: center;
 }
 
-header div {
+.header {
+    width: 43%;
     text-align: center;
 }
