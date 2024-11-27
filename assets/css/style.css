@@ -10,7 +10,7 @@ html, body {
     width: 100vw;
 }
 
-h2, p {
+h2, p, button {
     font-family: 'Open Sans';
 }
 
