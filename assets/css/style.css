@@ -35,3 +35,25 @@ header {
     color: #ffffff;
     padding-bottom: 24px;
 }
+
+.header div {
+    padding-top: 24px;
+}
+
+.header button {
+    border-radius: 28px;
+    font-size: 1rem;
+}
+
+.baixar {
+    background-color: #ffffff;
+    color: #23272A;
+    padding: 11px 23px;
+    margin-right: 16px;
+}
+
+.abrir {
+    background-color: #23272A;
+    color: #ffffff;
+    padding: 11px 17px;
+}
