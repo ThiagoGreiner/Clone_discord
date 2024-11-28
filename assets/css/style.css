@@ -41,6 +41,7 @@ header {
 }
 
 .header button {
+    border: none;
     border-radius: 28px;
     font-size: 1rem;
 }
@@ -87,14 +88,14 @@ main h2 {
 .footer {
     display: inline-block;
     text-align: center;
-    max-width: 802px;
+    max-width: 50.2rem;
     margin-top: 40px;
 }
 
 .footer h2 {
     font-family: 'Luckiest Guy';
     text-transform: uppercase;
-    max-width: 608px;
+    max-width: 38rem;
     margin: 0 auto;
 }
 
