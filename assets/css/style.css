@@ -32,12 +32,15 @@ header {
     font-family: 'Luckiest Guy';
     text-transform: uppercase;
     font-size: 3.5rem;
+    max-width: 50%;
+    margin: 0 auto;
     color: #ffffff;
     padding-bottom: 24px;
 }
 
 .header div {
     padding-top: 24px;
+    width: 100%;
 }
 
 .header button {
@@ -69,11 +72,11 @@ main div {
     align-items: center;
     text-align: initial;
     column-gap: 16px;
-    margin-top: 40px;
+    margin: 40px 20px 0;
 }
 
 main img {
-    max-width: 607px;
+    max-width: 49%;
 }
 
 main span {
@@ -102,5 +105,82 @@ main h2 {
 
 .footer img {
     padding-top: 16px;
-    max-width: 784px;
+    max-width: 97.7%;
+}
+
+@media (max-width: 1200px) {
+    html, body {
+        font-size: 14px;
+    }
+
+    .header {
+        width: 60%;
+    }
+}
+
+@media (max-width: 940px) {
+    html, body {
+        font-size: 12px;
+    }
+
+    .header {
+        width: 70%;
+    }
+}
+
+@media (max-width: 655px) {
+    html, body {
+        font-size: 10px;
+    }
+
+    header {
+        background-image: url(../midias/header_background_mobile.png);
+    }
+
+    .header {
+        width: 100%;
+        text-align: initial;
+        padding: 0 24px;
+    }
+
+    .header h1 {
+        margin: 0;
+        max-width: 53%;
+    }
+
+    .header button {
+        display: block;
+        width: 100%;
+    }
+
+    .baixar {
+        margin: 0 0 16px 0;
+    }
+
+    main div {
+        flex-wrap: wrap;
+        padding: 40px 0;
+        margin-top: 0;
+    }
+
+    main h2 {
+        padding-bottom: 24px;
+    }
+
+    main img {
+        min-width: 283px;
+        padding-bottom: 24px;
+    }
+
+    .container img {
+        order: 1;
+    }
+
+    .container span {
+        order: 2;
+    }
+
+    .footer {
+        margin-top: 0;
+    }
 }
