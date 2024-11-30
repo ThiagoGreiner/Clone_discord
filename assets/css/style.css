@@ -112,6 +112,11 @@ footer {
     padding: 35px 0;
 }
 
+footer img {
+    max-width: 18%;
+    min-width: 170px;
+}
+
 @media (max-width: 1200px) {
     html, body {
         font-size: 14px;
