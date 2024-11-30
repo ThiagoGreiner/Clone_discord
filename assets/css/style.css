@@ -108,6 +108,14 @@ main h2 {
     max-width: 97.7%;
 }
 
+footer {
+    background-color: #23272A;
+    max-height: 134px;
+    display: flex;
+    justify-content: center;
+    padding: 35px 0;
+}
+
 @media (max-width: 1200px) {
     html, body {
         font-size: 14px;
