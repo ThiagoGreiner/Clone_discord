@@ -6,10 +6,6 @@
     padding: 0;
 }
 
-html, body {
-    width: 100vw;
-}
-
 h2, p, button {
     font-family: 'Open Sans';
 }
