@@ -24,7 +24,7 @@ header {
 }
 
 .header {
-    width: 50%;
+    width: 52%;
     text-align: center;
 }
 
@@ -119,12 +119,9 @@ main h2 {
 }
 
 @media (max-width: 940px) {
-    html, body {
-        font-size: 12px;
-    }
 
     .header {
-        width: 70%;
+        width: 80%;
     }
 }
 
