@@ -129,10 +129,6 @@ main h2 {
 }
 
 @media (max-width: 655px) {
-    html, body {
-        font-size: 10px;
-    }
-
     header {
         background-image: url(../midias/header_background_mobile.png);
     }
