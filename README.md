@@ -9,9 +9,7 @@ Este projeto tem como objetivo colocar em prática e aperfeiçoar as técnicas d
 
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Layout</a>&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Responsividade</a>
+  <a href="#-layout">Layout</a>
 </p>
 
 <br>
